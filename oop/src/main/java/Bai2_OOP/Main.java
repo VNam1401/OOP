@@ -1,7 +1,4 @@
-package bai_2.OOP;
-
-import bai_2.*;
-
+package Bai2_OOP;
 public class Main {
     public static void main(String[] args) {
           // Tao 2 tk account
