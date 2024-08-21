@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package bai1_kethua;
 public class Chunhat {
 
@@ -20,4 +16,7 @@ public class Chunhat {
     public double getdientich() {
         return dai * rong;
     }
+    public void xuat(){
+    
+        System.out.println(" HCN__Chieu rong: "+ rong +"Chieu dai: "+dai+"Dien tich: "+getdientich()+"Chu vi"+getChuvi()+".");}
 }

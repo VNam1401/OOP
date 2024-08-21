@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package bai1_kethua;
 
 /**
@@ -10,11 +6,14 @@ package bai1_kethua;
  */
 public class Main {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        System.out.println("\n THONG TIN HINH CHU NHAT");
+        Chunhat cn = new Chunhat(3, 4);
+                cn.xuat();
+
+        System.out.println("\n THONG TIN HINH VUONG");
+        Chunhat vg = new Chunhat(3, 3);
+        vg.xuat();
     }
-    
+
 }
