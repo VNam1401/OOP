@@ -1,4 +1,4 @@
-package Bai2_OOP;
+package bai2_oop;
 public class Account {
 
     public String id;
