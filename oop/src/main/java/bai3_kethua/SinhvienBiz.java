@@ -1,25 +1,18 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package bai3_kethua;
 
-/**
- *
- * @author ADMIN
- */
 public class SinhvienBiz extends Sinhvien {
 
-    public double diemMaketing;
-    public double diemsales;
+    private final double diemMaketing;
+    private final double diemsales;
 
     public SinhvienBiz(String hoten, double diemMaketing, double diemsales) {
+        super(hoten, "Kinh doanh");
         this.diemMaketing = diemMaketing;
         this.diemsales = diemsales;
     }
 
-    public double getdiem() {
+    @Override
+    public double Getdiem() {
         return (2 * diemMaketing + diemsales) / 3;
     }
-
 }

@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package bai3_kethua;
 
 public class SinhvienIT extends Sinhvien {
@@ -10,16 +7,15 @@ public class SinhvienIT extends Sinhvien {
     public double diemcss;
     public double diemhtml;
 
-    public SinhvienIT(double diemjava, double diemcss, double diemhtml, String hoten) {
-//        super(hoten);
+    public SinhvienIT( String hoten, double diemjava, double diemcss, double diemhtml) {
+        super(hoten,"Cong nghe thong ");
         this.diemjava = diemjava;
         this.diemcss = diemcss;
         this.diemhtml = diemhtml;
     }
 
-    
-    public double getdiem() {
+    @Override
+    public double Getdiem() {
         return (2 * diemjava + diemhtml + diemcss) / 4;
     }
-
 }

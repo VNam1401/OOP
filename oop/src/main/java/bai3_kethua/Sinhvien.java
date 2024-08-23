@@ -1,13 +1,6 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package bai3_kethua;
 
-/**
- *
- * @author ADMIN
- */
 public abstract class Sinhvien {
 
     public String hoten;
@@ -36,6 +29,7 @@ public abstract class Sinhvien {
     }
 
     public void Xuat() {
-        System.out.println("SINHVIEN_ Ho ten: " + hoten + "Nghanh: " + nghanh + "Diem" + Getdiem() + "Hoc luc: " + Gethocluc());
+        System.out.println("SINHVIEN" + " Ho ten: " + hoten + " Nghanh: " + nghanh + " Diem" + Getdiem() + " Hoc luc: " + Gethocluc());
+        
     }
 }
