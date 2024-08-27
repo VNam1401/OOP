@@ -8,7 +8,7 @@ public class SinhvienIT extends Sinhvien {
     public double diemhtml;
 
     public SinhvienIT( String hoten, double diemjava, double diemcss, double diemhtml) {
-        super(hoten,"Cong nghe thong ");
+        super(hoten,"Cong nghe thong tin ");
         this.diemjava = diemjava;
         this.diemcss = diemcss;
         this.diemhtml = diemhtml;

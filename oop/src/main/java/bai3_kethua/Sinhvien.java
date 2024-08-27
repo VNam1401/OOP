@@ -29,7 +29,7 @@ public abstract class Sinhvien {
     }
 
     public void Xuat() {
-        System.out.println("SINHVIEN" + " Ho ten: " + hoten + " Nghanh: " + nghanh + " Diem" + Getdiem() + " Hoc luc: " + Gethocluc());
+        System.out.println("SINHVIEN" + " Ho ten: " + hoten + "," + " Nghanh: " + nghanh+"," + " Diem" + Getdiem()+"," + " Hoc luc: " + Gethocluc()+".");
         
     }
 }
